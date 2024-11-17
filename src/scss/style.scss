@@ -19,10 +19,10 @@ body {
 }
 
 // Header commands
-
 .headerText{
 
     color: #F7F8FC;
+
 }
 
 .avatar {
@@ -70,13 +70,15 @@ body {
 }
 
 // Visual graph Commands
-
 // mixins
 @mixin graphVisuals{
+
     width: 20px;
     height: 2px;
     border-radius: 3px;
+
 }
+
 .graphVisual1{
 
     @include graphVisuals;
