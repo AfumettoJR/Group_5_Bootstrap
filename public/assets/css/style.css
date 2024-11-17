@@ -1,0 +1,139 @@
+body {
+  background-color: #212529;
+}
+
+.siderBarItems {
+  transition: all 0.3s ease-in-out;
+}
+
+.sideBarItems:hover {
+  background-color: #3751FF;
+}
+
+.headerText {
+  color: #F7F8FC;
+}
+
+.avatar {
+  width: 43.33px;
+  height: 43.33px;
+  top: -1.67px;
+  left: -11.67px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 20px;
+}
+
+.avatarName {
+  display: none;
+}
+
+.topStatsBorder {
+  border: 1px solid #DFE0EB;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.topStatsBorder:hover {
+  border-color: #3751FF;
+  color: #3751FF;
+}
+
+.four_containers {
+  padding: 20px;
+}
+
+.graphVisual1 {
+  width: 20px;
+  height: 2px;
+  border-radius: 3px;
+  background-color: #3751FF;
+}
+
+.graphVisual2 {
+  width: 20px;
+  height: 2px;
+  border-radius: 3px;
+  background-color: #E1E2EC;
+}
+
+.border {
+  border: 1px solid #DFE0EB;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.insideBorder {
+  border-left: 1px solid #DFE0EB;
+  border-top: 1px solid #DFE0EB;
+  border-bottom: 1px solid #DFE0EB;
+}
+
+.taskCard {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.taskItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-top: 1px solid #f0f0f0;
+}
+
+.taskItem:first-child {
+  border-top: none;
+}
+
+.taskLabel {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.labelUrgent {
+  background-color: #f7b924;
+}
+
+.labelNew {
+  background-color: #28a745;
+}
+
+.labelDefault {
+  background-color: #e0e0e0;
+  color: #6c757d;
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    background-color: #F7F8FC;
+  }
+  .headerText {
+    color: #000;
+  }
+  .avatar {
+    margin-left: 0;
+  }
+  .avatarName {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
